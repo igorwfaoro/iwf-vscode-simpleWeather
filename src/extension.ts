@@ -112,10 +112,3 @@ export function activate(context: vscode.ExtensionContext) {
 	if (apiKey && weatherLocation)
 		init();
 }
-
-// "onCommand:simple-weather.getWeather"
-
-// init('f72e77354550ff786b084a919dc0d280', {
-// 	cityName: 'Caxias do Sul',
-// 	countryCode: 'BR'
-// });
